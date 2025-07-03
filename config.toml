@@ -1,0 +1,17 @@
+# ─────────────────────────────────────────────
+# Streamlit configuration file
+# Place this file in a folder named `.streamlit` at the project root.
+# ─────────────────────────────────────────────
+
+[server]
+headless = true          # Streamlit Cloud runs in headless mode
+port = 8501              # Default; Streamlit Cloud sets this automatically
+enableCORS = false       # Allow app to be embedded or iframes
+
+[theme]
+# 👉 Tweak colours to match your brand (hex values or web‑safe names)
+primaryColor = "#F63366"            # Accent (e.g. button colour)
+backgroundColor = "#FFFFFF"         # Main background
+secondaryBackgroundColor = "#F0F2F6" # Sidebar / widgets background
+textColor = "#262730"               # Default text
+font = "sans serif"                 # Options: "sans serif", "serif", "monospace"
